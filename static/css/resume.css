@@ -69,9 +69,6 @@ html p {
     height: 300px;
     margin-top: 10px; 
     background-image: url(../image/Group.png);
-    left:50%;
-    position:relative;
-    margin-left: -500PX;
 }
 .peasonal-image {
     width: 100px;
@@ -349,7 +346,6 @@ section .title.about-me::before {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 100%;
-  text-align: center;
 }
 p.footer {
     text-align: center;
