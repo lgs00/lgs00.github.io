@@ -6,7 +6,6 @@ html, body {
     width: 100%;
     height: 100%;
     font-family: PingFangSC;
-    text-align: center;
 }
 a {
     text-decoration: none;
@@ -347,7 +346,6 @@ section .title.about-me::before {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 100%;
-  text-align: center;
 }
 p.footer {
     text-align: center;
@@ -355,5 +353,6 @@ p.footer {
     color: #9A9A9A;
     letter-spacing: 1.22px;
     padding: 10px 0;
+    text-align: center;
     
 }
