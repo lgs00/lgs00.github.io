@@ -16,14 +16,14 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 300,
         "density": {
           "enable": true,
-          "value_area": 800
+          "value_area": 800 /* 粒子数*/
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#44546A"  /*节点颜色*/
       },
       "shape": {
         "type": "circle",
@@ -51,7 +51,7 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 5,
+        "value": 3,
         "random": true,
         "anim": {
           "enable": false,
@@ -63,7 +63,7 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#ffffff",
+        "color": "#44546A", /*线条颜色*/
         "opacity": 0.4,
         "width": 1
       },
@@ -96,7 +96,7 @@ particlesJS('particles-js',
       },
       "modes": {
         "grab": {
-          "distance": 400,
+          "distance": 140,
           "line_linked": {
             "opacity": 1
           }
@@ -109,7 +109,8 @@ particlesJS('particles-js',
           "speed": 3
         },
         "repulse": {
-          "distance": 200
+          "distance": 200，
+          "duration": 0.4
         },
         "push": {
           "particles_nb": 4
@@ -124,7 +125,7 @@ particlesJS('particles-js',
       "hide_card": false,
       "background_color": "#b61924",
       "background_image": "",
-      "background_position": "50% 50%",
+      "background_position": "100% 100%",
       "background_repeat": "no-repeat",
       "background_size": "cover"
     }
