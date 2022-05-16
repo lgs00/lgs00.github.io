@@ -69,6 +69,9 @@ html p {
     height: 300px;
     margin-top: 10px; 
     background-image: url(../image/Group.png);
+    left:50%;
+    position:relative;
+    margin-left: -500PX;
 }
 .peasonal-image {
     width: 100px;
