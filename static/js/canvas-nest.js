@@ -28,8 +28,8 @@
   }
   //设置canvas的高宽
   function set_canvas_size() {
-    canvas_width = the_canvas.width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth, 
-    canvas_height = the_canvas.height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+    canvas_width = the_canvas.width = window.innerWidth, 
+    canvas_height = the_canvas.height = window.innerHeight;
   }
  
   //绘制过程
