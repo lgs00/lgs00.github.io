@@ -5,33 +5,15 @@
     <meta charset="UTF-8">
     <title>peasonal resume</title>
     <link rel="stylesheet" href="./static/css/resume.css">
-    <link rel="stylesheet" media="screen" href="./static/js/style.css" rel="external nofollow" >
+    <link rel="stylesheet" media="screen" href="./static/css/style.css" rel="external nofollow" >
 </head>
     
 <body>
-    <script src="./static/js/particles.js"></script>
-    <script src="./static/js/app.js"></script>
-    <script>
-    var count_particles, stats, update;
-    stats = new Stats;
-    stats.setMode(2);
-    stats.domElement.style.position = 'absolute';
-    stats.domElement.style.left = '0px';
-    stats.domElement.style.top = '0px';
-    document.body.appendChild(stats.domElement);
-    count_particles = document.querySelector('.js-count-particles');
-    update = function() {
-    stats.begin();
-    stats.end();
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-    }
-    requestAnimationFrame(update);
-    };
-    requestAnimationFrame(update);
-    </script>
+
     <div class="container" id="particles-js">
         <!-- scripts -->
+        <script src="./static/js/particles.js"></script>
+        <script src="./static/js/app.js"></script>
         <header>
             <div class="img-header">
                 <div class="content">
