@@ -12,18 +12,11 @@ a {
 html p {
     margin: 0;
 }
-.col-2 .col-3, .col-6, .col-9 {
+.col-3, .col-6, .col-9 {
     display: inline-block;
     vertical-align: top;
     margin: 0;
     padding: 0;
-}
-.col-2{
-    width: 48%;
-}
-.col-2-abs {
-    width: 350px;
-    display: inline-block;
 }
 .col-3 {
     width: 32%;
