@@ -23,13 +23,13 @@
       z: get_attribute(script, "zIndex", -1), //z-index
       o: get_attribute(script, "opacity", 0.5), //opacity
       c: get_attribute(script, "color", "0,0,0"), //color
-      n: get_attribute(script, "count", 99) //count
+      n: get_attribute(script, "count", 80) //count
     };
   }
   //设置canvas的高宽
   function set_canvas_size() {
-    canvas_width = the_canvas.width = window.innerWidth, 
-    canvas_height = the_canvas.height = window.innerHeight;
+    canvas_width = the_canvas.width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth, 
+    canvas_height = the_canvas.height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
   }
  
   //绘制过程
