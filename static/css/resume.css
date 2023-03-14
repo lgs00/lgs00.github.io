@@ -13,7 +13,11 @@ html p {
     margin: 0;
 }
 #zt1{
-    font-family: YouYuan;
+    font-weight: bold;
+    font-size: 18px;
+    color: #022643;
+    letter-spacing: 1.0px;
+    margin-bottom: 10px; 
 }
 #zt2{
     font-weight: bold;
