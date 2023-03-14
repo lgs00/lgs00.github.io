@@ -232,7 +232,8 @@ section .title.about-me::before {
     border-radius: 5px;
     padding: 20px;
     text-align: center; 
-    z-index: 30;
+    z-index: 10;
+	height:600px;
 }
 .project-content p.project-title {
     font-size: 16px;
