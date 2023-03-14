@@ -191,7 +191,6 @@ section .title.about-me::before {
 
 .project-detail .col-3-abs {
     margin-top: 50px;
-	height: 600px;
 }
 .project-detail .col-3-abs:not(.endline) {
     margin-right: 20px;
@@ -233,7 +232,7 @@ section .title.about-me::before {
     border-radius: 5px;
     padding: 20px;
     text-align: center; 
-    z-index: 10;
+    z-index: 30;
 }
 .project-content p.project-title {
     font-size: 16px;
