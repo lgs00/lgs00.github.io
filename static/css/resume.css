@@ -191,6 +191,7 @@ section .title.about-me::before {
 
 .project-detail .col-3-abs {
     margin-top: 50px;
+	height: 600px;
 }
 .project-detail .col-3-abs:not(.endline) {
     margin-right: 20px;
