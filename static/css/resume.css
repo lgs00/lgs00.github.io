@@ -32,6 +32,18 @@ html p {
     color: #767E84;
     letter-spacing: 1px;
 }
+#zt4{
+	margin-top: 5px; 
+    font-size: 16px;
+    color: #8f32ad;
+    letter-spacing: 1px;
+}
+#zt5{
+	margin-top: 5px; 
+    font-size: 16px;
+    color: #022643;
+    letter-spacing: 1px;
+}
 .col-3, .col-6, .col-9 {
     display: inline-block;
     vertical-align: top;
