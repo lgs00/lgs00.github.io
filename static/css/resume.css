@@ -263,7 +263,7 @@ section .title.about-me::before {
     border-bottom: none;
 }
 .w-experience-content .logo {
-    width: 30%;
+    width: 20%;
 }
 .w-experience-content .work-content {
     width: 69%;
@@ -274,7 +274,7 @@ section .title.about-me::before {
 }
 .company-logo {
     margin: 20px 0 0 20px;
-    max-width: 200px;
+    max-width: 250px;
 }
 .work-content p.create-time {
     font-size: 14px;
