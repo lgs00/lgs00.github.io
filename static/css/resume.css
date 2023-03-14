@@ -263,10 +263,10 @@ section .title.about-me::before {
     border-bottom: none;
 }
 .w-experience-content .logo {
-    width: 20%;
+    width: 30%;
 }
 .w-experience-content .work-content {
-    width: 69%;
+    width: 60%;
 }
 .w-experience-content .logo, .w-experience-content .work-content {
     display: inline-block;
@@ -277,8 +277,10 @@ section .title.about-me::before {
     max-width: 250px;
 }
 .work-content p.create-time {
+    
+	margin-top: 5px; 
     font-size: 14px;
-    color: #022643;
+    color: #767E84;
     letter-spacing: 1px;
 }
 .work-content p.job {
