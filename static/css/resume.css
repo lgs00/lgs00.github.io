@@ -33,12 +33,19 @@ html p {
     letter-spacing: 1px;
 }
 #zt4{
+	font-weight: bold;
 	margin-top: 5px; 
     font-size: 18px;
     color: #8f32ad;
     letter-spacing: 1px;
 }
 #zt5{
+	margin-top: 5px; 
+    font-size: 18px;
+    color: #022643;
+    letter-spacing: 1px;
+}
+#zt6{
 	margin-top: 5px; 
     font-size: 18px;
     color: #022643;
