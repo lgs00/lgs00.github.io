@@ -289,7 +289,7 @@ section .title.about-me::before {
     width: 60%;
 }
 .w-experience-content .paper-content {
-    width: 90%;
+    width: 80%;
 }
 .w-experience-content .logo, .w-experience-content .work-content {
     display: inline-block;
