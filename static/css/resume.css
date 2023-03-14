@@ -12,6 +12,22 @@ a {
 html p {
     margin: 0;
 }
+#zt1{
+    font-family: YouYuan;
+}
+#zt2{
+    font-weight: bold;
+    font-size: 18px;
+    color: #8f32ad;
+    letter-spacing: 1.0px;
+    margin-bottom: 10px; 
+}
+#zt3{
+	margin-top: 5px; 
+    font-size: 14px;
+    color: #767E84;
+    letter-spacing: 1px;
+}
 .col-3, .col-6, .col-9 {
     display: inline-block;
     vertical-align: top;
