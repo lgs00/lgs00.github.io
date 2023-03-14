@@ -288,6 +288,9 @@ section .title.about-me::before {
 .w-experience-content .work-content {
     width: 60%;
 }
+.w-experience-content .paper-content {
+    width: 90%;
+}
 .w-experience-content .logo, .w-experience-content .work-content {
     display: inline-block;
     vertical-align: top;
