@@ -23,6 +23,7 @@ html p {
 }
 .col-3-abs {
     width: 290px;
+	height: 600px;
     display: inline-block;
 }
 .col-6-asb {
