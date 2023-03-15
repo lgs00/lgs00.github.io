@@ -111,6 +111,7 @@ html p {
 .peasonal-image {
     width: 100px;
     height: 100px;
+	margin-top: 10px; 
 }
 .img-header .content {
     font-family: Courier;
